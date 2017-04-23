@@ -81,15 +81,15 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                         <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow1.png') }}">
                     </div>
                     <div class="col-lg-8">
-		    <iframe
-    src="https://clips.twitch.tv/embed?clip=LachrymoseYummyLlamaFunRun"
-    height="500"
-    width="780"
-    frameborder="0"
-    scrolling="no"
-    allowfullscreen="false">
-</iframe>
-		    </div>
+                		<iframe
+                            src="https://clips.twitch.tv/embed?clip=LachrymoseYummyLlamaFunRun"
+                            height="500"
+                            width="780"
+                            frameborder="0"
+                            scrolling="no"
+                            allowfullscreen="false">
+                        </iframe>
+		            </div>
                     <div class="col-lg-2">
                         <br>
                         <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow2.png') }}">
