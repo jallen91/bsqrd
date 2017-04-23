@@ -6623,6 +6623,10 @@ hr {
     color: white;
 }
 
+#footerwrap h4 {
+    color: white;
+}
+
 #footerwrap p {
     color: white;
     font-size: 18px;
