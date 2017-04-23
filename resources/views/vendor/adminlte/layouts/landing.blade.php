@@ -139,7 +139,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div id="showcase">
             <div class="container">
                 <div class="row">
-                    <h1 class="centered">{{ trans('adminlte_lang::message.screenshots') }}</h1>
+                    <h1 class="centered">Commissions</h1>
                     <br>
                     <div class="col-lg-8 col-lg-offset-2">
                         <div id="carousel-example-generic" class="carousel slide">
@@ -171,35 +171,29 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <section id="contact" name="contact">
         <div id="footerwrap">
             <div class="container">
-                <div class="col-lg-5">
-                    <h3>{{ trans('adminlte_lang::message.address') }}</h3>
+                <div class="col-lg-4">
+                    <h3>Sean</h3>
+                    <h5>E: <a href="mailto:sean@bsqrd.tv" target="_top">sean@bsqrd.tv</a></h5>
                     <p>
-                        Av. Greenville 987,<br/>
-                        New York,<br/>
-                        90873<br/>
-                        United States
+                        <ul>
+                            <li>Commissions</li>
+                            <li>Art Projects</li>
+                            <li>Stream Related Inquiries</li>
+                        </ul>
                     </p>
                 </div>
+                <div class="col-lg-4">
+                    <h3>John</h3>
+                    <h5>E: <a href="mailto:john@bsqrd.tv" target="_top">john@bsqrd.tv</a></h5>
+                    <p>
+                        <ul>
+                            <li>BSQRD.TV Website</li>
+                            <li>Coding Opportunities</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-lg-4">
 
-                <div class="col-lg-7">
-                    <h3>{{ trans('adminlte_lang::message.dropus') }}</h3>
-                    <br>
-                    <form role="form" action="#" method="post" enctype="plain">
-                        <div class="form-group">
-                            <label for="name1">{{ trans('adminlte_lang::message.yourname') }}</label>
-                            <input type="name" name="Name" class="form-control" id="name1" placeholder="{{ trans('adminlte_lang::message.yourname') }}">
-                        </div>
-                        <div class="form-group">
-                            <label for="email1">{{ trans('adminlte_lang::message.emailaddress') }}</label>
-                            <input type="email" name="Mail" class="form-control" id="email1" placeholder="{{ trans('adminlte_lang::message.enteremail') }}">
-                        </div>
-                        <div class="form-group">
-                            <label>{{ trans('adminlte_lang::message.yourtext') }}</label>
-                            <textarea class="form-control" name="Message" rows="3"></textarea>
-                        </div>
-                        <br>
-                        <button type="submit" class="btn btn-large btn-success">{{ trans('adminlte_lang::message.submit') }}</button>
-                    </form>
                 </div>
             </div>
         </div>
