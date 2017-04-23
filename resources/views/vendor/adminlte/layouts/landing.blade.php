@@ -50,7 +50,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
-                    <li><a href="#desc" class="smoothScroll">Twitch</a></li>
+                    <li><a href="https://www.twitch.tv/teambsqrd" class="smoothScroll">Twitch</a></li>
+                    <li><a href="#desc" class="smoothScroll">About Us</a></li>
                     <li><a href="#showcase" class="smoothScroll">Commissions</a></li>
                     <li><a href="#contact" class="smoothScroll">{{ trans('adminlte_lang::message.contact') }}</a></li>
                 </ul>
@@ -105,7 +106,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div id="intro">
             <div class="container">
                 <div class="row centered">
-                    <h1></h1>
+                    <h1>About Us</h1>
                     <br>
                     <br>
                     <div class="col-lg-4">
