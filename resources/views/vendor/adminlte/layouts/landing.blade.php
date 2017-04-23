@@ -111,7 +111,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="col-lg-4">
                         <img src="{{ asset('/img/bsqrd/PS4.png') }}" alt="">
                         <h3>Games</h3>
-                        <p>We stream on <a href="https://www.twitch.tv/teambsqrd">Twitch</a>!</p>
+                        <p>We stream on <a target="_blank" href="https://www.twitch.tv/teambsqrd">Twitch</a>!</p>
                     </div>
                     <div class="col-lg-4">
                         <img src="{{ asset('/img/bsqrd/artIcon.png') }}" alt="">
