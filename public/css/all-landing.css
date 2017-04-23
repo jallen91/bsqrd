@@ -6552,8 +6552,9 @@ hr {
    Wrap Sections
    ========================================================================== */
 
+/*Main top section*/
 #headerwrap {
-    background-color: #0065d6;
+    background-color: #00499a;
     padding-top: 60px;
 }
 
