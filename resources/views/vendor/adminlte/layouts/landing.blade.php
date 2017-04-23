@@ -72,7 +72,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <div class="container">
                 <div class="row centered">
                     <div class="col-lg-12">
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}" height="240" width="400">
+                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}" height="210" width="350">
                         <h3></h3>
                     </div>
                     <div class="col-lg-2">
