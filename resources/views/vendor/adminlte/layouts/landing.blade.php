@@ -72,7 +72,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <div class="container">
                 <div class="row centered">
                     <div class="col-lg-12">
-                        <h1>BSQRD TV</b></h1>
+                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}">
                         <h3></h3>
                     </div>
                     <div class="col-lg-2">
@@ -131,81 +131,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         </div><!--/ #introwrap -->
 
         <!-- FEATURES WRAP -->
-        <div id="features">
-            <div class="container">
-                <div class="row">
-                    <h1 class="centered">{{ trans('adminlte_lang::message.whatnew') }}</h1>
-                    <br>
-                    <br>
-                    <div class="col-lg-6 centered">
-                        <img class="centered" src="{{ asset('/img/mobile.png') }}" alt="">
-                    </div>
+        <!--<div id="features">-->
 
-                    <div class="col-lg-6">
-                        <h3>{{ trans('adminlte_lang::message.features') }}</h3>
-                        <br>
-                        <!-- ACCORDION -->
-                        <div class="accordion ac" id="accordion2">
-                            <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                        {{ trans('adminlte_lang::message.design') }}
-                                    </a>
-                                </div><!-- /accordion-heading -->
-                                <div id="collapseOne" class="accordion-body collapse in">
-                                    <div class="accordion-inner">
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    </div><!-- /accordion-inner -->
-                                </div><!-- /collapse -->
-                            </div><!-- /accordion-group -->
-                            <br>
-
-                            <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                        {{ trans('adminlte_lang::message.retina') }}
-                                    </a>
-                                </div>
-                                <div id="collapseTwo" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    </div><!-- /accordion-inner -->
-                                </div><!-- /collapse -->
-                            </div><!-- /accordion-group -->
-                            <br>
-
-                            <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                        {{ trans('adminlte_lang::message.support') }}
-                                    </a>
-                                </div>
-                                <div id="collapseThree" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    </div><!-- /accordion-inner -->
-                                </div><!-- /collapse -->
-                            </div><!-- /accordion-group -->
-                            <br>
-
-                            <div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                                        {{ trans('adminlte_lang::message.responsive') }}
-                                    </a>
-                                </div>
-                                <div id="collapseFour" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    </div><!-- /accordion-inner -->
-                                </div><!-- /collapse -->
-                            </div><!-- /accordion-group -->
-                            <br>
-                        </div><!-- Accordion -->
-                    </div>
-                </div>
-            </div><!--/ .container -->
-        </div><!--/ #features -->
+        <!--</div><!--/ #features -->
     </section>
 
     <section id="showcase" name="showcase">
