@@ -173,7 +173,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <div class="container">
                 <div class="col-lg-4">
                     <h3>Sean</h3>
-                    <h5>E: <a href="mailto:sean@bsqrd.tv" target="_top">sean@bsqrd.tv</a></h5>
+                    <h4>E: <a href="mailto:sean@bsqrd.tv" target="_top">sean@bsqrd.tv</a></h4>
                     <p>
                         <ul>
                             <li>Commissions</li>
@@ -184,7 +184,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 </div>
                 <div class="col-lg-4">
                     <h3>John</h3>
-                    <h5>E: <a href="mailto:john@bsqrd.tv" target="_top">john@bsqrd.tv</a></h5>
+                    <h4>E: <a href="mailto:john@bsqrd.tv" target="_top">john@bsqrd.tv</a></h4>
                     <p>
                         <ul>
                             <li>BSQRD.TV Website</li>
