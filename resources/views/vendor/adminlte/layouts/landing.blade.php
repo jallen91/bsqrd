@@ -56,8 +56,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::guest())
-                        <li><a href="#">{{ trans('adminlte_lang::message.login') }}</a></li>
-                        <li><a href="#">{{ trans('adminlte_lang::message.register') }}</a></li>
+                        <!--<li><a href="#">{{ trans('adminlte_lang::message.login') }}</a></li>-->
+                        <!--<li><a href="#">{{ trans('adminlte_lang::message.register') }}</a></li>-->
                     @else
                         <li><a href="/home">{{ Auth::user()->name }}</a></li>
                     @endif
@@ -105,27 +105,27 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div id="intro">
             <div class="container">
                 <div class="row centered">
-                    <h1>{{ trans('adminlte_lang::message.designed') }}</h1>
+                    <h1></h1>
                     <br>
                     <br>
                     <div class="col-lg-4">
-                        <img src="{{ asset('/img/intro01.png') }}" alt="">
-                        <h3>{{ trans('adminlte_lang::message.community') }}</h3>
-                        <p>{{ trans('adminlte_lang::message.see') }} <a href="https://github.com/acacha/adminlte-laravel">{{ trans('adminlte_lang::message.githubproject') }}</a>, {{ trans('adminlte_lang::message.post') }} <a href="https://github.com/acacha/adminlte-laravel/issues">{{ trans('adminlte_lang::message.issues') }}</a> {{ trans('adminlte_lang::message.and') }} <a href="https://github.com/acacha/adminlte-laravel/pulls">{{ trans('adminlte_lang::message.pullrequests') }}</a></p>
+                        <img src="{{ asset('/img/bsqrd/PS4.png') }}" alt="">
+                        <h3>Games</h3>
+                        <p>We stream on <a href="https://www.twitch.tv/teambsqrd">Twitch</a>!</p>
                     </div>
                     <div class="col-lg-4">
-                        <img src="{{ asset('/img/intro02.png') }}" alt="">
-                        <h3>{{ trans('adminlte_lang::message.schedule') }}</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img src="{{ asset('/img/bsqrd/artIcon.png') }}" alt="">
+                        <h3>Art</h3>
+                        <p></p>
                     </div>
                     <div class="col-lg-4">
-                        <img src="{{ asset('/img/intro03.png') }}" alt="">
-                        <h3>{{ trans('adminlte_lang::message.monitoring') }}</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img src="{{ asset('/img/bsqrd/communityIcon.png') }}" alt="">
+                        <h3>Peepz (Community)</h3>
+                        <p></p>
                     </div>
                 </div>
                 <br>
-                <hr>
+                <!--<hr>-->
             </div> <!--/ .container -->
         </div><!--/ #introwrap -->
 
