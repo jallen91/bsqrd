@@ -75,9 +75,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                         <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}" height="240" width="400">
                     </div>
                     <div class="col-lg-2">
-                        <h5>Spoopy</h5>
-                        <p></p>
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow1.png') }}">
+                        <!--<h5>Spoopy</h5>-->
+                        <!--<p></p>-->
+                        <!--<img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow1.png') }}">-->
                     </div>
                     <div class="col-lg-8">
                 		<iframe
@@ -91,9 +91,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 		            </div>
                     <div class="col-lg-2">
                         <br>
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow2.png') }}">
-                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scared BB</h5>
-                        <p></p>
+                        <!--<img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow2.png') }}">-->
+                        <!--<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scared BB</h5>-->
+                        <!--<p></p>-->
                     </div>
                 </div>
             </div> <!--/ .container -->
