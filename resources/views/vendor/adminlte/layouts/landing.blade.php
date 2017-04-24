@@ -70,7 +70,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <section id="home" name="home">
         <div id="headerwrap">
-            <div class="container">
+            <!--<div class="container">-->
                 <div class="row centered">
                     <div class="col-lg-12">
                         <a a target="_blank" href="https://www.twitch.tv/teambsqrd"><img src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}"></a>
@@ -80,7 +80,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="col-lg-2">
                         <!--<h5>Spoopy</h5>-->
                         <!--<p></p>-->
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/Sean.png') }}">
+                        <img class="hidden-xs hidden-sm hidden-md sean" src="{{ asset('/img/bsqrd/Sean.png') }}">
                     </div>
                     <div class="col-lg-8">
                 		<iframe
@@ -94,12 +94,12 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     	            </div>
                     <div class="col-lg-2">
                         <br>
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/John.png') }}">
+                        <img class="hidden-xs hidden-sm hidden-md john" src="{{ asset('/img/bsqrd/John.png') }}">
                         <!--<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scared BB</h5>-->
                         <!--<p></p>-->
                     </div>
                 </div>
-            </div> <!--/ .container -->
+            <!--</div> <!--/ .container -->
         </div><!--/ #headerwrap -->
     </section>
 
