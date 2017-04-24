@@ -83,13 +83,15 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                         <img class="hidden-xs hidden-sm hidden-md sean" src="{{ asset('/img/bsqrd/Sean.png') }}">
                     </div>
                     <div class="col-lg-8">
-                		<iframe
-                            src="https://clips.twitch.tv/embed?clip=LachrymoseYummyLlamaFunRun"
-                            frameborder="0"
-                            scrolling="no"
-                            allowfullscreen="false"
-                            autoplay="false">
-                        </iframe>
+                        <div class="video-container">
+                    		<iframe
+                                src="https://clips.twitch.tv/embed?clip=LachrymoseYummyLlamaFunRun"
+                                frameborder="0"
+                                scrolling="no"
+                                allowfullscreen="false"
+                                autoplay="false">
+                            </iframe>
+                        </div>
     	            </div>
                     <div class="col-lg-2">
                         <br>
@@ -107,7 +109,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div id="intro">
             <div class="container">
                 <div class="row centered">
-                    <h1>Meet the Team</h1>
+                    <h1>About Us</h1>
                     <br>
                     <br>
                     <div class="col-lg-4">
