@@ -6681,6 +6681,8 @@ hr {
   display:         flex;
 }
 
-.sean {
-    padding-left: 70px;
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }

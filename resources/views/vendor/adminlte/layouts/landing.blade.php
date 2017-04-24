@@ -97,7 +97,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     	            </div>
                     <div class="col-lg-2">
                         <div class="bottom-align">
-                            <img class="hidden-xs hidden-sm hidden-md sean" src="{{ asset('/img/bsqrd/Sean.png') }}">
+                            <img class="hidden-xs hidden-sm hidden-md center" src="{{ asset('/img/bsqrd/Sean.png') }}">
                         <!--<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scared BB</h5>-->
                         <!--<p></p>-->
                         </div>
