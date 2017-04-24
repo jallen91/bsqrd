@@ -71,12 +71,12 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <section id="home" name="home">
         <div id="headerwrap">
             <div class="container">
-                <div class="row centered">
+                <div class="row centered is-flex">
                     <div class="col-lg-12">
                         <a a target="_blank" href="https://www.twitch.tv/teambsqrd"><img src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}"></a>
                     </div>
                 </div>
-                <div class="row centered is-table-row">
+                <div class="row centered is-flex">
                     <div class="col-lg-2">
                         <div class="portrait-container">
                         <!--<h5>Spoopy</h5>-->
@@ -90,8 +90,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                                 src="https://clips.twitch.tv/embed?clip=LachrymoseYummyLlamaFunRun"
                                 frameborder="0"
                                 scrolling="no"
-                                allowfullscreen="false"
-                                autoplay="false">
+                                allowfullscreen=false
+                                autoplay=false>
                             </iframe>
                         </div>
     	            </div>
