@@ -50,7 +50,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#home" class="smoothScroll">{{ trans('adminlte_lang::message.home') }}</a></li>
-                    <li><a href="https://www.twitch.tv/teambsqrd" class="smoothScroll">Twitch</a></li>
+                    <li><a a target="_blank" href="https://www.twitch.tv/teambsqrd" class="smoothScroll">Twitch</a></li>
                     <li><a href="#desc" class="smoothScroll">About Us</a></li>
                     <li><a href="#showcase" class="smoothScroll">Commissions</a></li>
                     <li><a href="#contact" class="smoothScroll">{{ trans('adminlte_lang::message.contact') }}</a></li>
@@ -73,12 +73,12 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <div class="container">
                 <div class="row centered">
                     <div class="col-lg-12">
-                        <a href="https://www.twitch.tv/teambsqrd"><img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}"></a>
+                        <a a target="_blank" href="https://www.twitch.tv/teambsqrd"><img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}"></a>
                     </div>
                     <div class="col-lg-2">
                         <!--<h5>Spoopy</h5>-->
                         <!--<p></p>-->
-                        <!--<img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow1.png') }}">-->
+                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/Sean.png') }}">
                     </div>
                     <div class="col-lg-8">
                 		<iframe
@@ -92,7 +92,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 		            </div>
                     <div class="col-lg-2">
                         <br>
-                        <!--<img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow2.png') }}">-->
+                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/John.png') }}">
                         <!--<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scared BB</h5>-->
                         <!--<p></p>-->
                     </div>
