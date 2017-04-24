@@ -6653,6 +6653,8 @@ hr {
     position: absolute;
     bottom: 0;
     right: 0;
+    display: block;
+    margin: 0 auto;
   }
 }
 
