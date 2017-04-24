@@ -76,7 +76,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                         <a a target="_blank" href="https://www.twitch.tv/teambsqrd"><img src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}"></a>
                     </div>
                 </div>
-                <div class="row centered">
+                <div class="row centered is-table-row">
                     <div class="col-lg-2">
                         <div class="portrait-container">
                         <!--<h5>Spoopy</h5>-->
