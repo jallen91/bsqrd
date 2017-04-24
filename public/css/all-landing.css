@@ -1540,7 +1540,7 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
+  padding-left: 0px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
@@ -1561,7 +1561,7 @@ pre code {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
+  padding-left: 0px;
   padding-right: 15px;
 }
 .row {
