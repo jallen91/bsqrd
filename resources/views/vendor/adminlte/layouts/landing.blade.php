@@ -75,6 +75,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="col-lg-12">
                         <a a target="_blank" href="https://www.twitch.tv/teambsqrd"><img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}"></a>
                     </div>
+                </div>
+                <div class="row centered">
                     <div class="col-lg-2">
                         <!--<h5>Spoopy</h5>-->
                         <!--<p></p>-->
@@ -89,7 +91,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                             scrolling="no"
                             allowfullscreen="false">
                         </iframe>
-		            </div>
+    	            </div>
                     <div class="col-lg-2">
                         <br>
                         <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/John.png') }}">
