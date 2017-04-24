@@ -78,7 +78,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 </div>
                 <div class="row centered row-eq-height">
                     <div class="col-lg-2">
-                        <div class="portrait-container">
+                        <div class="bottom-align">
                         <!--<h5>Spoopy</h5>-->
                         <!--<p></p>-->
                             <img class="hidden-xs hidden-sm hidden-md sean" src="{{ asset('/img/bsqrd/Sean.png') }}">
@@ -96,7 +96,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                         </div>
     	            </div>
                     <div class="col-lg-2">
-                        <div class="portrait-container">
+                        <div class="bottom-align">
                             <img class="hidden-xs hidden-sm hidden-md john" src="{{ asset('/img/bsqrd/John.png') }}">
                         <!--<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scared BB</h5>-->
                         <!--<p></p>-->

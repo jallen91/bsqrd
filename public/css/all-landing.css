@@ -6644,8 +6644,16 @@ hr {
     color: white
 }
 
-.portrait-container {
-    vertical-align: bottom
+@media (min-width: 768px ) {
+  .row {
+      position: relative;
+  }
+
+  .bottom-align img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 .video-container {
