@@ -6652,6 +6652,10 @@ hr {
     height: 100%;
 }
 
+.portrait img {
+    vertical-align: bottom
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
