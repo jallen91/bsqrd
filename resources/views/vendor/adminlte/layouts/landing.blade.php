@@ -70,7 +70,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <section id="home" name="home">
         <div id="headerwrap">
-            <!--<div class="container">-->
+            <div class="container">
                 <div class="row centered">
                     <div class="col-lg-12">
                         <a a target="_blank" href="https://www.twitch.tv/teambsqrd"><img src="{{ asset('/img/bsqrd/BSQRDSiteLogo.png') }}"></a>
@@ -99,7 +99,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                         <!--<p></p>-->
                     </div>
                 </div>
-            <!--</div> <!--/ .container -->
+            </div> <!--/ .container -->
         </div><!--/ #headerwrap -->
     </section>
 
