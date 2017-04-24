@@ -45,7 +45,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url('/') }}"><img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/cornerlogo.png') }}"></a>
+                <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('/img/bsqrd/cornerlogo.png') }}"></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -80,7 +80,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="col-lg-2">
                         <!--<h5>Spoopy</h5>-->
                         <!--<p></p>-->
-                        <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/bsqrd/Sean.png') }}">
+                        <img src="{{ asset('/img/bsqrd/Sean.png') }}">
                     </div>
                     <div class="col-lg-8">
                 		<iframe
