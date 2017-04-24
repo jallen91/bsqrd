@@ -85,11 +85,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="col-lg-8">
                 		<iframe
                             src="https://clips.twitch.tv/embed?clip=LachrymoseYummyLlamaFunRun"
-                            height="500"
-                            width="780"
                             frameborder="0"
                             scrolling="no"
-                            allowfullscreen="false">
+                            allowfullscreen="false"
+                            autoplay="false">
                         </iframe>
     	            </div>
                     <div class="col-lg-2">
